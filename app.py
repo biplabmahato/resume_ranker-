@@ -135,7 +135,7 @@ def calculate_score(resume_data, jd_requirements):
     
     # Skill matching (50 points)
     skill_score = 50 * (len(matched_skills) / len(required_skills) if required_skills else 0
-    score += skill_score
+    score += skill_score)
     
     # Experience matching (30 points)
     if jd_requirements["experience_required"] > 0:
