@@ -127,7 +127,6 @@ def parse_resume(file_path):
     except Exception as e:
         st.error(f"Error parsing {file_path}: {str(e)}")
         return None
-
 def calculate_score(resume_data, jd_requirements):
     score = 0
     resume_skills = set(resume_data["skills"])
