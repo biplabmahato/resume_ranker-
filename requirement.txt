@@ -6,3 +6,7 @@ pdfminer.six
 nltk
 pandas
 numpy
+spacy==2.3.9
+PyPDF2
+nltk
+
